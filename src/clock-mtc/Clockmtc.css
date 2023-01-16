@@ -3,8 +3,10 @@
   border: 1px solid black;
   padding: 0;
   margin: 1em auto;
-  width: 20em;
-  height: 20em;
+  /* width: 20em;
+  height: 20em; */
+  width: 70vw;
+  height: 70vw;
   border-radius: 50%;
   list-style: none;
   overflow: hidden;
@@ -17,6 +19,7 @@ li {
   width: 50%;
   height: 50%;
   transform-origin: 0% 100%;
+  opacity: 0.5;
 }
 .text {
   position: absolute;
@@ -26,7 +29,7 @@ li {
   text-align: center;
   -webkit-transform: skewY(60deg) rotate(15deg);
   -ms-transform: skewY(60deg) rotate(15deg);
-  transform: skewY(60deg) rotate(15deg);
+  transform: skewY(60deg) rotate(13.5deg);
   padding-top: 20px;
 }
 
